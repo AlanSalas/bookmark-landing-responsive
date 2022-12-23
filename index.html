@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Bookmark</title>
+  </head>
+  <body>
+    <header class="bookmark-header">
+      <div class="container">
+        <nav class="bookmark-header__nav-mobile">
+          <img src="./images/logo-bookmark.svg" alt="logo" />
+          <img class="menu-mobile" src="./images/icon-hamburger.svg" alt="menu" />
+          <div class="bookmark-header__links">
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+            <a class="button button--red" href="#">Login</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-content hero-section relative">
+        <div class="container">
+          <div class="hero">
+            <img
+              class="hero__image"
+              src="./images/illustration-hero.svg"
+              alt="hero image"
+            />
+            <div class="hero__content">
+              <h1 class="title">A Simple Bookmark Manager</h1>
+              <p class="copy">
+                A clean and simple interface to organize your favourite websites. Open a
+                new browser tab and see your sites load instantly. Try it for free.
+              </p>
+              <div class="hero__buttons">
+                <button class="button">Get it on Chrome</button>
+                <button class="button button--gray">Get it on Firefox</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-content features-section relative">
+        <div class="container features">
+          <h2 class="subtitle">Features</h2>
+          <p class="copy">
+            Our aim is to make it quick and easy for you to access your favourite
+            websites. Your bookmarks sync between your devices so you can access them on
+            the go.
+          </p>
+        </div>
+
+        <div class="tabs">
+          <input type="radio" name="tab" id="bookmarking" checked />
+          <input type="radio" name="tab" id="searching" />
+          <input type="radio" name="tab" id="sharing" />
+          <div class="container">
+            <div class="tabs__items">
+              <label class="tabs__text" for="bookmarking">Simple Bookmarking</label>
+              <label class="tabs__text" for="searching">Speedy Searching</label>
+              <label class="tabs__text" for="sharing">Easy Sharing</label>
+            </div>
+            <div class="tabs__content">
+              <div class="tabs__content-item" id="tab-bookmarking">
+                <img
+                  class="tabs__content-image"
+                  src="./images/illustration-features-tab-1.svg"
+                  alt="Bookmark in one click"
+                />
+                <div class="tabs__content-copy">
+                  <h2 class="subtitle">Bookmark in one click</h2>
+                  <p class="copy">
+                    Organize your bookmarks however you like. Our simple drag-and-drop
+                    interface gives you complete control over how you manage your
+                    favourite sites.
+                  </p>
+                  <button class="button">More Info</button>
+                </div>
+              </div>
+              <div class="tabs__content-item" id="tab-searching">
+                <img
+                  class="tabs__content-image"
+                  src="./images/illustration-features-tab-2.svg"
+                  alt="Intelligent search"
+                />
+                <div class="tabs__content-copy">
+                  <h2 class="subtitle">Intelligent search</h2>
+                  <p class="copy">
+                    Our powerful search feature will help you find saved sites in no time
+                    at all. No need to trawl through all of your bookmarks.
+                  </p>
+                  <button class="button">More Info</button>
+                </div>
+              </div>
+              <div class="tabs__content-item" id="tab-sharing">
+                <img
+                  class="tabs__content-image"
+                  src="./images/illustration-features-tab-3.svg"
+                  alt="Share your bookmarks"
+                />
+                <div class="tabs__content-copy">
+                  <h2 class="subtitle">Share your bookmarks</h2>
+                  <p class="copy">
+                    Easily share your bookmarks and collections with others. Create a
+                    shareable link that you can send at the click of a button.
+                  </p>
+                  <button class="button">More Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-content download-section">
+        <div class="container download">
+          <h2 class="subtitle">Download the extension</h2>
+          <p class="copy">
+            We’ve got more browsers in the pipeline. Please do let us know if you’ve got a
+            favourite you’d like us to prioritize.
+          </p>
+
+          <div class="cards">
+            <div class="card">
+              <img class="card__img" src="./images/logo-chrome.svg" alt="Google Chrome" />
+              <h3 class="sub-subtitle">Add to Chrome</h3>
+              <p class="copy card__description">Minimun version 62</p>
+              <button class="button button--full-width">Add & Install Extension</button>
+            </div>
+            <div class="card">
+              <img class="card__img" src="./images/logo-firefox.svg" alt="Firefox" />
+              <h3 class="sub-subtitle">Add to Firefox</h3>
+              <p class="copy card__description">Minimun version 55</p>
+              <button class="button button--full-width">Add & Install Extension</button>
+            </div>
+            <div class="card">
+              <img class="card__img" src="./images/logo-opera.svg" alt="Opera" />
+              <h3 class="sub-subtitle">Add to Opera</h3>
+              <p class="copy card__description">Minimun version 46</p>
+              <button class="button button--full-width">Add & Install Extension</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-content">
+        <div class="container faqs">
+          <h2 class="subtitle">Frequently Asked Questions</h2>
+          <p class="copy">
+            Here are some of our FAQs. If you have any other questions you’d like answered
+            please feel free to email us.
+          </p>
+
+          <div class="expands">
+            <details class="expands__item">
+              <summary class="expands__title">
+                What is Bookmark? <i class="fa-solid fa-chevron-up arrow-up"></i>
+                <i class="fa-solid fa-chevron-down arrow-down"></i>
+              </summary>
+              <p class="copy expands__copy">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat,
+                possimus facere illo impedit alias nobis eum eius deserunt quo ullam
+                maiores, sit ipsa tempore amet fugiat, autem voluptas assumenda.
+              </p>
+            </details>
+            <details class="expands__item">
+              <summary class="expands__title">
+                How can I request a new browser?
+                <i class="fa-solid fa-chevron-up arrow-up"></i>
+                <i class="fa-solid fa-chevron-down arrow-down"></i>
+              </summary>
+              <p class="copy expands__copy">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat,
+                possimus facere illo impedit alias nobis eum eius deserunt quo ullam
+                maiores, sit ipsa tempore amet fugiat, autem voluptas assumenda.
+              </p>
+            </details>
+            <details class="expands__item">
+              <summary class="expands__title">
+                Is there a mobile app? <i class="fa-solid fa-chevron-up arrow-up"></i>
+                <i class="fa-solid fa-chevron-down arrow-down"></i>
+              </summary>
+              <p class="copy expands__copy">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat,
+                possimus facere illo impedit alias nobis eum eius deserunt quo ullam
+                maiores, sit ipsa tempore amet fugiat, autem voluptas assumenda.
+              </p>
+            </details>
+            <details class="expands__item">
+              <summary class="expands__title">
+                What about other chronium browsers?
+                <i class="fa-solid fa-chevron-up arrow-up"></i>
+                <i class="fa-solid fa-chevron-down arrow-down"></i>
+              </summary>
+              <p class="copy expands__copy">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat,
+                possimus facere illo impedit alias nobis eum eius deserunt quo ullam
+                maiores, sit ipsa tempore amet fugiat, autem voluptas assumenda.
+              </p>
+            </details>
+          </div>
+          <button class="button">More Info</button>
+        </div>
+      </section>
+      <section class="section-content bg--blue">
+        <div class="container">
+          <div class="contact">
+            <h3 class="contact__stats">35,000+ ALREADY JOINED</h3>
+            <h2 class="sub-sub-subtitle">Stay up-to-date with what we’re doing</h2>
+            <form class="contact__form">
+              <input
+                class="contact__email"
+                type="text"
+                placeholder="Enter yout email address"
+              />
+              <button class="button button--red button--full-width">Contact Us</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section bg--blue-dark">
+      <div class="container">
+        <div class="footer">
+          <div class="footer__links">
+            <img src="./images/logo-bookmark-white.svg" alt="logo" />
+            <a href="#">FEATURES</a>
+            <a href="#">PRICING</a>
+            <a href="#">CONTACT</a>
+          </div>
+          <div class="footer__social">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
